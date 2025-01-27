@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rate the Ferval Party</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Rate the Ferval Party</h1>
+    <p>Dear Senior, please rate the Ferval Party experience:</p>
+
+    <div class="star-rating">
+      <span class="star" data-value="1">&#9733;</span>
+      <span class="star" data-value="2">&#9733;</span>
+      <span class="star" data-value="3">&#9733;</span>
+      <span class="star" data-value="4">&#9733;</span>
+      <span class="star" data-value="5">&#9733;</span>
+    </div>
+
+    <p>Your Rating: <span id="ratingValue">0</span> stars</p>
+
+    <button id="submitBtn" onclick="submitRating()">Submit Rating</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
